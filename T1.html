@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Naigational Data</title>
+	
+	
+	<style>
+	/* Styling the FOOTER */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        footer {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+		/*
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+		    footer:hover {
+        background-color: #ddd;
+    }
+	*/
+	   footer a {
+        text-decoration: none;
+        color: white;
+        padding: 5px 10px;
+        margin: 0 5px;
+        background-color: transparent;
+        transition: background-color 0.3s;
+    }
+    footer a:hover {
+        /*background-color: #ddd; */
+		background-color: red;
+    }
+	
+    </style>
+	
+	
+	<!--
+	<style>
+		/* Styling the FOOTER */
+    footer {
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+    }
+    footer a {
+        text-decoration: none;
+        color: #333;
+        padding: 5px 10px;
+        margin: 0 5px;
+        background-color: transparent;
+        transition: background-color 0.3s;
+    }
+    footer a:hover {
+        background-color: #ddd;
+    }
+</style>
+
+-->
+
+	
+	
+	<style>
+        body {
+            /* background-color: #D9FC8E; Light Green */
+			background-color: #78644a; /* Light Blue */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* Additional styles can be added here */
+    </style>
+	
+	
+	
+
+  
+  
+  
+   <style>
+/* Styling the button */
+.stylish-button {
+  background-color: #ff6666; /* Red background */
+  border: none; /* Remove border */
+  color: white; /* White text color */
+  padding: 7px 32px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as inline-block */
+  font-size: 20px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  transition-duration: 0.4s; /* Transition duration */
+  cursor: pointer; /* Cursor pointer */
+  border-radius: 8px; /* Rounded corners */
+  font-weight: bold; /* Make caption bold */
+  font-family: "Times New Roman", cursive; /* Change font to Comic Sans MS */
+}
+
+/* Styling the button on hover */
+.stylish-button:hover {
+  background-color: #ff3333; /* Darker red background on hover */
+}
+</style>
+
+
+
+
+<style>
+/* Styling the header */
+.stylish-header {
+  background: linear-gradient(135deg, #ff6666, #ff3333); /* Red gradient background */
+  color: white; /* White text color */
+  padding: 10px; /* Padding */
+  text-align: center; /* Center text */
+  font-size: 28px; /* Font size */
+  font-family: "Comic Sans MS", cursive; /* Font family */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for stylish effect */
+  border: 2px solid #cc0000; /* Red border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Box shadow for 3D effect */
+  transition: transform 0.3s ease-in-out; /* Transition effect on hover */
+}
+
+.stylish-header:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Text effect */
+.stylish-header span {
+  background: linear-gradient(135deg, #ff3333, #ff6666); /* Red gradient text */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  background-clip: text; /* Apply gradient to text */
+  color: transparent; /* Transparent text color */
+}
+</style>
+
+
+
+
+<style>
+/* CSS styling for menu */
+
+header {
+  background-color: #000; /* Black background for header */
+  padding: .014px 0; /* Adjust the padding as needed */
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu > li {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+.menu > li > a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff6666; /* Red background */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.menu > li > a:hover {
+  background-color: #ff3333; /* Darker red background on hover */
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: black; /* Red background */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.menu > li:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu li {
+  display: block;
+  margin: 0;
+}
+
+.sub-menu li a {
+  display: block;
+  padding: 6px 12px; /* Adjusted padding */
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px; /* Smaller font size */
+  white-space: nowrap; /* Ensures text appears in a single line */
+  transition: background-color 0.3s;
+}
+
+.sub-menu li a:hover {
+  background-color: #ff3333; /* Darker red background on hover */
+}
+</style>
+
+
+<!-- TABLE STYLE -->
+
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Background color for the table */
+.table-container {
+  background-color: #fad5a5; /* Black background for the table container */
+  color: black; /* White text color */
+  font-family: Arial, sans-serif; /* Font family */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow */
+}
+
+/* Hover effect for table cells */
+td:hover {
+  background-color: #ff6666; /* Darker background on hover */
+}
+
+/* CSS class for highlighting the table cell */
+.highlight {
+  background-color: red; /* Red background for the highlighted cell */
+}
+</style>
+
+
+ 	
+</head>
+
+
+
+
+<body>
+
+<header>
+<ul class="menu">
+    <li>
+      <a href="#">ALL APPS</a>
+      <ul class="sub-menu">
+        <li><a href="#">OKTA APP</a>
+          <ul class="sub-menu">
+            <li><a href="#">MY ACCESS</a></li>
+            <li><a href="#">ASK IT</a></li>
+            <li><a href="#">AWS</a></li>
+          </ul>
+        </li>
+        <li><a href="#">DataBricks</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">KT RELATED</a>
+      <ul class="sub-menu">
+        <li><a href="https://mytakeda-my.sharepoint.com/personal/parag_das_takeda_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fparag%5Fdas%5Ftakeda%5Fcom%2FDocuments%2FRecordings%2FMAF%20Team%20General%20Overview%2D20240229%5F190717%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview&ga=1" target="_blank">Francisco– Data Architecture Overview</a></li>
+        <li><a href="https://mytakeda-my.sharepoint.com/personal/martin_palla_takeda_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmartin%5Fpalla%5Ftakeda%5Fcom%2FDocuments%2FRecordings%2FGMSGQ%20DIME%20team%20introduction%2D20240220%5F100549%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview&ga=1" target="_blank">GMSGQ DIME Team Introduction</a></li>
+		<li><a href="https://mytakeda-my.sharepoint.com/personal/nikolas_antol_takeda_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fnikolas%5Fantol%5Ftakeda%5Fcom%2FDocuments%2FRecordings%2FIntroduction%20to%20DDM%2D20240221%5F100320%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview&ga=1" target="_blank">Introduction To DDM</a></li>
+        <li><a href="https://mytakeda-my.sharepoint.com/:v:/g/personal/francisco_florido_takeda_com/EU1jwfnpGRRJpM0g2Bt0QewBTjZhxFfM36DjttbwwEAJYg?referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view" target="_blank">MAF Streaming pipeline</a></li>
+		<li><a href="https://mytakeda.sharepoint.com/sites/GMSGQ_EDB_Team/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=9wraW7&OR=Teams%2DHL&CT=1708933721203&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDAyMDIwNTUxMSIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&cid=d05a390a%2D1825%2D4598%2Db55f%2Da36545b9ba8a&FolderCTID=0x01200040B2F47CB8F0834AB9FEEED3D17BFC66&id=%2Fsites%2FGMSGQ%5FEDB%5FTeam%2FShared%20Documents%2FDIME%20%28combined%20MAF%5FDDM%29%2F98%5FOnboarding%2FOnboarding%5FTesting%5FPod%2FKT%20DDM&viewid=d53ec417%2De9c1%2D4aa3%2Db67e%2D69180ceaab22" target="_blank">Mahesh Sharepoint- Automation Script | Dashboard and JIRA | Testing | qTest | TestCase</a></li>
+        <li><a href="https://mytakeda.sharepoint.com/sites/GMSGQ_EDB_Team/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=9wraW7&cid=d05a390a-1825-4598-b55f-a36545b9ba8a&FolderCTID=0x01200040B2F47CB8F0834AB9FEEED3D17BFC66&OR=Teams-HL&CT=1709569827822&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDAyMDIwNTUxMiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&id=%2Fsites%2FGMSGQ_EDB_Team%2FShared%20Documents%2FDIME%20%28combined%20MAF_DDM%29%2F98_Onboarding%2FOnboarding_Testing_Pod%2FKT%20MAF%20-%20Intro%20to%20project%2C%20testing%20and%20tools&viewid=d53ec417-e9c1-4aa3-b67e-69180ceaab22" target="_blank">Roman SharePoint</a></li>
+		<li><a href="https://mytakeda-my.sharepoint.com/personal/parag_das_takeda_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fparag_das_takeda_com%2FDocuments%2FRecordings%2FMAF%20Testing%20intro%20-%20qTest-20240308_190920-Meeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview&ga=1" target="_blank">Roman qTest KT</a></li>	
+		<li><a href="https://mytakeda.sharepoint.com/sites/GMSGQ_EDB_Team/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FGMSGQ%5FEDB%5FTeam%2FShared%20Documents%2FDimensional%20Data%20Model%2FTakeda%20DDM%20Team%2FPOD%204%2FDevOps%2FMigration%20Process%2FDDM%20Release%20process%2Epdf&viewid=d53ec417%2De9c1%2D4aa3%2Db67e%2D69180ceaab22&parent=%2Fsites%2FGMSGQ%5FEDB%5FTeam%2FShared%20Documents%2FDimensional%20Data%20Model%2FTakeda%20DDM%20Team%2FPOD%204%2FDevOps%2FMigration%20Process" target="_blank">DDM Release Process</a></li>
+		<li><a href="https://onetakeda.atlassian.net/wiki/spaces/GMSGQMI/pages/3791163081/Access+Request" target="_blank">List of accesses for BA/Developers</a></li>
+		<li><a href="https://onetakeda.atlassian.net/wiki/spaces/GMSGQMI/pages/3967025377/Technical+Details" target="_blank">MAF Technical details</a></li>
+		<li><a href="https://onetakeda.atlassian.net/wiki/spaces/GMSGQMI/pages/3900703568/MAF+-+Knowledge+Transfer" target="_blank">MAF Knowledge Transfer</a></li>
+		<li><a href="https://onetakeda.atlassian.net/wiki/spaces/GMSGQMI/pages/3754656507/Execution" target="_blank">SDLC Documentation and Phases</a></li>
+		<li><a href="https://onetakeda.atlassian.net/wiki/spaces/GMSGQMI/pages/3862167762/GMSGQ-MAF+Timeline+-+Phase+13-17" target="_blank">Timelines and Phases</a></li>
+		
+      </ul>
+    </li>
+    <li><a href="https://www.google.com" target="_blank">UTILITY</a></li>
+    <li><a href="#" target="_blank">RESOURCES</a></li>
+    <li>
+      <a href="#">SQL Query</a>
+      <ul class="sub-menu">
+        <li><a href="#">DDL</a></li>
+        <li><a href="#">DML</a></li>
+      </ul>
+    </li>
+  </ul>
+ </header> 
+  <!-- END OF MENU ====================================================-->
+  
+  
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var cells = document.querySelectorAll('td');
+
+  cells.forEach(function(cell) {
+    cell.addEventListener("mouseenter", function() {
+      this.classList.add('highlight');
+    });
+
+    cell.addEventListener("mouseleave", function() {
+      this.classList.remove('highlight');
+    });
+  });
+});
+</script>
+
+
+
+
+
+  <button class="stylish-button">Click Here</button>
+
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th><a href="https://myaccess.onetakeda.com/home.jsf" target="_blank">MyAccess Portal</a></th>
+        <th>DataBRicks</th>
+        <th>IICS-Informatica</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>PAM</td>
+        <td><a href="https://onetakeda.atlassian.net/wiki/spaces/GMSGQMI/pages/3791163081/Access+Request" target="_blank">Confluence Access Resuest Page</a></td>
+        <td><a href="https://takeda.okta.com/home/amazon_aws/0oa1usob8kGEzvXhU357/272" target="_blank">AWS-TED-TEST</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://takeda.okta.com/home/amazon_aws/0oa1usnewa6SAJMIe357/272" target="_blank">AWS-TED-DEV</a></td>
+        <td><a href="https://test-us-tidal.onetakeda.com:8443/client/console.html?locale=en" target="_blank">TIDAL</a></td>
+        <td><a href = "https://mytakeda-my.sharepoint.com/personal/parag_das_takeda_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fparag%5Fdas%5Ftakeda%5Fcom%2FDocuments%2FRecordings%2FCall%20with%20Melwin%20Rodrigues%2C%20Akhil%20%28External%29%2D20240319%5F164040%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview&ga=1" target="_blank">Akhil Brief on Phase 37</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://mytakeda.sharepoint.com/:x:/r/sites/GMSGQ_EDB_Team/_layouts/15/Doc.aspx?sourcedoc=%7B79AE2E1A-232D-43D1-944E-131F3AAF0AA9%7D&file=MAF%20-%20Phase%2037%20-%20SIT%20Scope%20&%20Plan.xlsx=&action=default&mobileredirect=true" target="_blank">MAF Phase 37 Scope Excel</a></td>
+        <td><a href="https://onetakeda.atlassian.net/jira/software/c/projects/GMSGQMI/boards/4299?quickFilter=87505&selectedIssue=GMSGQMI-5714" target="_blank">JIRA Kanban - RDS Offload for Siemens MES - Singapore</a></td>
+        <td><a href="https://mytakeda.sharepoint.com/:x:/r/sites/GMSGQ_EDB_Team/_layouts/15/Doc.aspx?sourcedoc=%7B1306D0B0-131D-4E33-8B81-415F3A2161B5%7D&file=Team%20Availability%20Tracker.xlsx&action=default&mobileredirect=true" target="_blank">Leave Tracker</a></td>
+      </tr>
+		<tr>
+        <td><a href="https://onetakeda.atlassian.net/browse/GMSGQMI-7528" target="_blank">GMSGQMI-7528- Test Record(s) approved for SIT (Test)</a></td>
+        <td><a href="https://onetakeda.atlassian.net/browse/GMSGQMI-7428" target="_blank">GMSGQMI-7428- Analyze Functional and Technical Implementation for SIT</a></td>
+        <td><a href="https://onetakeda.atlassian.net/browse/GMSGQMI-7415" target="_blank">GMSGQMI-7415- Test Case(s) created for SIT (In Progress)</a></td>
+      </tr>
+	  <tr>
+        <td><a href="https://onetakeda.atlassian.net/browse/GMSGQMI-7416" target="_blank">GMSGQMI-7416- Test Case(s) approved for SIT (In Progress)</a></td>
+        <td><a href="https://onetakeda.atlassian.net/browse/GMSGQMI-7527" target="_blank">GMSGQMI-7527- Test Case(s) executed for SIT (Test)</a></td>
+        <td><a href="https://mytakeda.sharepoint.com/sites/EnterpriseDataAnalyticsTeam/Shared%20Documents/Forms/AllItems.aspx?originalPath=aHR0cHM6Ly9teXRha2VkYS5zaGFyZXBvaW50LmNvbS86Zjovcy9FbnRlcnByaXNlRGF0YUFuYWx5dGljc1RlYW0vRXNycDhJUzBtcjlEZ09zVG1yWm84RWtCT0F4Z1U2Snc0T1M3QjlIQTVKVmpwUT9ydGltZT1oU3VBU2dPYTJVZw&id=%2Fsites%2FEnterpriseDataAnalyticsTeam%2FShared%20Documents%2F02%2DDATA%20PSG%2FValidation%2FMAF%2FSIT%20Tracker&viewid=de8a795a%2D1dae%2D48cd%2D9d72%2D73bcf2a44ae7" target="_blank">Enterprise TestCase Tracker</a></td>
+      </tr>
+	   <tr>
+        <td><a href="https://onetakeda.atlassian.net/browse/GMSGQMI-7416" target="_blank">GMSGQMI-7416- Test Case(s) approved for SIT (In Progress)</a></td>
+        <td><a href="https://onetakeda.atlassian.net/browse/GMSGQMI-7527" target="_blank">GMSGQMI-7527- Test Case(s) executed for SIT (Test)</a></td>
+        <td><a href="https://mytakeda.sharepoint.com/sites/EnterpriseDataAnalyticsTeam/Shared%20Documents/Forms/AllItems.aspx?originalPath=aHR0cHM6Ly9teXRha2VkYS5zaGFyZXBvaW50LmNvbS86Zjovcy9FbnRlcnByaXNlRGF0YUFuYWx5dGljc1RlYW0vRXNycDhJUzBtcjlEZ09zVG1yWm84RWtCT0F4Z1U2Snc0T1M3QjlIQTVKVmpwUT9ydGltZT1oU3VBU2dPYTJVZw&id=%2Fsites%2FEnterpriseDataAnalyticsTeam%2FShared%20Documents%2F02%2DDATA%20PSG%2FValidation%2FMAF%2FSIT%20Tracker&viewid=de8a795a%2D1dae%2D48cd%2D9d72%2D73bcf2a44ae7" target="_blank">Enterprise TestCase Tracker</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<font color=white>
+<b>
+<br><br><br>
+<marquee><u>Task To Be completed List:--</u> </marquee>
+<marquee><dd>i. Update JIRA ticket once Regression Test Case Approved </marquee>
+<marquee><dd>ii. Run Automation </marquee>
+</b>
+</font>
+
+
+<footer>
+	<font size=3>
+        <a href="https://onetakeda.atlassian.net/jira/your-work" target="_blank">JIRA</a>
+        <a href="https://onetakeda.atlassian.net/wiki/home" target="_blank">CONFLUENCE</a>
+        <a href="https://takeda.qtestnet.com/p/112626/portal/project#tab=testexecution&object=8&id=664338" target="_blank">qTest</a>
+        <a href="https://takeda.service-now.com/AskIT" target="_blank">ASK IT Takeda</a>
+		<a href="https://takeda.okta.com/app/UserHome?session_hint=AUTHENTICATED" target="_blank">OKTA MY APPS</a>
+		<a href="https://takeda.edcast.com/" target="_blank">BLOOM PORTAL</a>
+		<a href="https://github.com/oneTakeda" target="_blank">GitHub</a>
+		<a href ="https://mytakeda.sharepoint.com/sites/GMSGQ_EDB_Team/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=9wraW7&cid=d05a390a%2D1825%2D4598%2Db55f%2Da36545b9ba8a&FolderCTID=0x01200040B2F47CB8F0834AB9FEEED3D17BFC66&OR=Teams%2DHL&CT=1709569827822&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDAyMDIwNTUxMiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&id=%2Fsites%2FGMSGQ%5FEDB%5FTeam%2FShared%20Documents%2FDIME%20%28combined%20MAF%5FDDM%29%2F98%5FOnboarding%2FOnboarding%5FTesting%5FPod%2FKT%20MAF%20%2D%20Intro%20to%20project%2C%20testing%20and%20tools&viewid=d53ec417%2De9c1%2D4aa3%2Db67e%2D69180ceaab22" target="_blank">RomanSharePoint</a>
+		<a href ="https://pam.onetakeda.com/PasswordVault/v10/logon?returnUrl=%2F" target="_blank">PAM/CyberArk</a>
+		<a href ="https://mytakeda.sharepoint.com/:x:/r/sites/EnterpriseDataAnalyticsTeam/_layouts/15/Doc.aspx?sourcedoc=%7B1F6D7B58-7DFE-4880-ACA0-E534591800CA%7D&file=Test%20Case%20Tracker_MAF_Phase-36.xlsx&action=default&mobileredirect=true" target="_blank">MAF TestCase Tracker Excel</a>
+		<a href="https://test-us-tidal.onetakeda.com:8443/client/console.html?locale=en" target="_blank">TIDAL</a>
+		
+	</font>
+	</footer>
+	
+	
+</body>
+</html>
